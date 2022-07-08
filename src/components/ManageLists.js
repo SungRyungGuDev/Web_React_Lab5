@@ -25,7 +25,8 @@ class ManageLists extends Component {
 
         })
     }
-    deleteRow = (id, e) => {       
+    deleteRow = (id, e) => {     
+        e.preventDefault();  
         axios.delete(`https://jsonplaceholder.typicode.com/photos/${id}`)
         .then(response => {
         console.log(response.data);

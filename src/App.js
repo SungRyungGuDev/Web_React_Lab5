@@ -5,8 +5,8 @@ import PostForm from './components/PostForm';
 function App() {
   return (
     <div className="App">
-      {/* <ManageLists/> */}
-      <PostForm/>
+      <ManageLists/>
+      {/* <PostForm/> */}
     </div>
   );
 }
